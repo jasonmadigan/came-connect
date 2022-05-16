@@ -1,6 +1,6 @@
 # came-connect
 
-A Python library/Web Server to use Came Connect for home automation purposes such as automating the control of gates via Home Assistant.
+An unofficial Python library/Web Server to use [Came Connect](https://www.cameconnect.net) for home automation purposes such as automating the control of gates via Home Assistant.
 
 The library lets you authenticate with the Came Connect service, and view the status of devices, issue commands or return the status of inputs.
 
