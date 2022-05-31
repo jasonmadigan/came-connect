@@ -44,7 +44,7 @@ You need to fetch two values from the Came Connect login page. To get:
 
 
 ```
-docker run -p --rm 9002:8080 --name=came-connect -e CAME_CONNECT_CLIENT_ID=xxx -e CAME_CONNECT_CLIENT_SECRET=xxx -e  CAME_CONNECT_USERNAME=xxx -e CAME_CONNECT_PASSWORD=xxx jasonmadigan/came-connect:latest
+docker run -p --rm 9002:8080 --name=came-connect -e CAME_CONNECT_CLIENT_ID=xxx -e CAME_CONNECT_CLIENT_SECRET=xxx -e  CAME_CONNECT_USERNAME=xxx -e CAME_CONNECT_PASSWORD=xxx ghcr.io/jasonmadigan/came-connect:main
 ```
 
 
