@@ -2,7 +2,8 @@
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Mqxx/GitHub-Markdown/blob/main/blockquotes/badge/light-theme/info.svg">
   <img alt="Info" src="https://github.com/Mqxx/GitHub-Markdown/blob/main/blockquotes/badge/dark-theme/info.svg">
 </picture><br>
-*Note:* I no longer have access to Came Connect, nor do I have a CAME gateway or slave, so I won't be able to maintain this further. I've switched recently to an ESP32 + Relays + Tasmota based opener, which is more reliable and doesn't require the cloud.
+
+**Note:** I no longer have access to Came Connect, nor do I have a CAME gateway or slave, so I won't be able to maintain this further. I've switched recently to an ESP32 + Relays + Tasmota based opener, which is more reliable and doesn't require the cloud.
 
 # came-connect
 
