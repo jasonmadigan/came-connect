@@ -110,13 +110,13 @@ def fetch_device_statuses(token):
 
 def fetch_commands_for_device(token, device_id):
     headers = {"Authorization": "Bearer " + token}
-    url = "https://app.cameconnect.net/api/multiio/{}/commands".format(device_id)
+    url = "https://app.cameconnect.net/api/automations/{}/commands".format(device_id)
     commands = requests.get(url, headers=headers)
     return commands.json()
 
 def run_command_for_device(token, device_id, command_id):
     headers = {"Authorization": "Bearer " + token}
-    url = "https://app.cameconnect.net/api/multiio/{}/commands/{}".format(device_id, command_id)
+    url = "https://app.cameconnect.net/api/automations/{}/commands/{}".format(device_id, command_id)
     res = requests.post(url, headers=headers)
     return res.json()
 
